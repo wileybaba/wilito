@@ -1,0 +1,116 @@
+baseURL = "/"
+title = "WILEY"
+theme = "robotico"
+paginate = 3
+
+[params]
+logofile = "img/Robobrand.png"
+faviconfile = "img/Robobrand.png"
+# copyright = "Wiley McKay Conte 2018"
+# github = "wileybaba"
+email = "wileymckayconte@gmail.com"
+twitter = "wiley_baba"
+instagram = "wileybaba"
+fork = "#"
+progressively = true
+
+defaultContentLanguage = "en"
+
+[[params.portfolio]]
+
+link = "img/pots/bud_vase_01.jpg"
+text = "Small porcelain bud vase"
+
+[[params.portfolio]]
+
+link = "/img/pots/large_vase_01.jpg"
+
+[[params.portfolio]]
+
+link = "/img/pots/mug_02.jpg"
+
+[[params.portfolio]]
+
+link = "/img/pots/large_vase_02.jpg"
+
+[[params.portfolio]]
+
+link = "/img/pots/mug_01.jpg"
+
+[[params.portfolio]]
+
+link = "/img/pots/cup_01.jpg"
+
+
+
+
+[languages]
+  [languages.en]
+  languageCode = "en-us"
+    [[languages.en.menu.primary]]
+    identifier = "code"
+    name = "code"
+    url = "https://github.com/wileybaba"
+    weight = 10
+
+    [[languages.en.menu.primary]]
+    identifier = "pots"
+    name = "pots"
+    url = "/portfolio/"
+    weight = 20
+
+    [[languages.en.menu.primary]]
+    identifier = ""
+
+    [[languages.en.menu.primary]]
+    identifier = "booklist"
+    name = "booklist"
+    url = "/booklist/"
+    weight = 30
+
+    # [[languages.en.menu.secondary]]
+    # identifier = "patreon"
+    # name = "Learn More"
+    # url = "https://www.patreon.com/bePatron?u=10637849"
+    # weight = 110
+
+    [[languages.en.menu.secondary]]
+    identifier = "bmc"
+    name = "Buy me a coffee"
+    url = "https://www.buymeacoffee.com/wiley"
+    weight = 120
+
+  [languages.es]
+  languageCode = "es-us"
+    [[languages.es.menu.primary]]
+    identifier = "codigo"
+    name = "codigo"
+    url = "https://github.com/wileybaba"
+    weight = 10
+
+    [[languages.es.menu.primary]]
+    identifier = "ceramicos"
+    name = "cerámica"
+    url = "/portfolio/"
+    weight = 20
+
+    [[languages.es.menu.primary]]
+    identifier = ""
+
+    [[languages.es.menu.primary]]
+    identifier = "booklist"
+    name = "libros"
+    url = "/booklist/"
+    weight = 30
+
+    # [[languages.es.menu.secondary]]
+    # identifier = "patreon"
+    # name = "Aprender mas"
+    # url = "https://www.patreon.com/bePatron?u=10637849"
+    # weight = 110
+
+    [[languages.es.menu.secondary]]
+    identifier = "bmc"
+    name = "Comprame Un Cafe"
+    url = "https://www.buymeacoffee.com/wiley"
+    weight = 120
