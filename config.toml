@@ -1,4 +1,4 @@
-baseURL = "/"
+fbaseURL = "/"
 title = "WILEY"
 theme = "robotico"
 paginate = 3
@@ -11,7 +11,7 @@ faviconfile = "img/Robobrand.png"
 email = "wileymckayconte@gmail.com"
 twitter = "wiley_baba"
 instagram = "wileybaba"
-fork = "#"
+fork = "https://github.com/wileybaba/hugo-theme-robotico"
 progressively = true
 
 defaultContentLanguage = "en"
