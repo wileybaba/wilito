@@ -12,6 +12,43 @@
             <p class="card-text">This is a collection of books that have recently piqued my interest.  Please let me know what you're reading below! <span class="badge badge-success">&#10000; HIT THE BOOKS!</span></p>
           </div>
         </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51eUw-v0X%2BL._SX329_BO1,204,203,200_.jpg" alt="Math Destruction">
+          <div class="card-body">
+            <h4 class="card-title">Weapons of Math Destruction</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Cathy O'Neil</h5>
+            <p class="card-text">A quick read the explores a number of pertinent cases where reliance on big data and machine learning is creating negative feedback loops that increase socioeconomic inequality.<span class="badge badge-success">&#10000; READ IT</span></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/41nhzMWhbDL._SX320_BO1,204,203,200_.jpg" alt="Surveillence Capitalism">
+          <div class="card-body">
+            <h4 class="card-title">The Age of Surveillence Capitalism</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Shoshana Zuboff</h5>
+            <p class="card-text">An enticing but dense book detailing the quest of powerful technology companies to predict and control our behavior.<span class="badge badge-success">&#10000; READ IT</span></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/41tmqEUIbSL._SX329_BO1,204,203,200_.jpg" alt="New York 2140">
+          <div class="card-body">
+            <h4 class="card-title">Bad Blood</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">John Carreyrou</h5>
+            <p class="card-text">Awesome investigative journalism piece detailing the rise and fall of the fraudulent silicon valley blood testing startup Theranos.<span class="badge badge-success">&#10000; READ IT</span></p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card-img-top" src="https://img1.od-cdn.com/ImageType-400/0887-1/D38/832/0F/%7BD388320F-E8BF-48A0-B0E7-A2FA62042C59%7DImg400.jpg" alt="New York 2140">
+          <div class="card-body">
+            <h4 class="card-title">New York 2140</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Kim Stanley Robinson</h5>
+            <p class="card-text">Great futurist novel that anyone with knowledge of New York City should enjoy.  Robinson paints a believable picture of the city––complete with its financiers, cops, celebrities, and hoodrats––in a future where the sea level has risen fifty feet.  <span class="badge badge-success">&#10000; READ IT</span></p>
+          </div>
+        </div>
+
         <div class="card">
           <img class="card-img-top" src="https://i.harperapps.com/covers/9780062190376/y648.jpg" alt="How to Change Your Mind">
           <div class="card-body">
@@ -20,6 +57,7 @@
             <p class="card-text">This is an excellent hard science fiction novel that opens up with the moon exploding.  This explosion sets the scene for an apocolypse that necessitates the building of a space colony initially tethered to the international space station.  Worth the read if you're interested in orbital mechanics, genomics, robotics, or space.  <span class="badge badge-success">&#10000; READ IT</span></p>
           </div>
         </div>
+
         <div class="card">
           <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/How_to_change_your_mind_pollan.jpg/220px-How_to_change_your_mind_pollan.jpg" alt="How to Change Your Mind">
           <div class="card-body">
@@ -28,6 +66,19 @@
             <p class="card-text">This book dives into the research and personalities behind the science of mind altering chemicals, most notibly Psilocybin and LSD. <span class="badge badge-success">&#10000; READ IT</span></p>
           </div>
         </div>
+
+        <a href="http://phrontistery.info/">
+          <div  class="card">
+            <div class="card-header">
+              <strong>The Phrontistery</strong>
+            </div>
+            <div class="card-body">
+                      <h5 class="card-subtitle mb-2 text-muted">Expand your vocabulary</h5>
+              <p class="card-text">This is a compilation of chrestomathic words.</p>
+            </div>
+          </div>
+        </a>
+
         <div class="card">
           <img class="card-img-top" src="https://images.gr-assets.com/books/1427728884l/23251016.jpg" alt="Zero to One">
           <div class="card-body">
@@ -36,7 +87,6 @@
             <p class="card-text">This a great read for anyone interested startups, entrepreneurship, or internet technology. <span class="badge badge-success">&#10000; READ IT</span></p>
           </div>
         </div>
-
         <div class="card">
            <img class="card-img-top" src="{{ "img/books/industries_future.jpg" | absURL }}" alt="The Industries of the Future">
            <div class="card-body">
@@ -198,5 +248,5 @@ body {
 
 </style>
 
-  {{ partial "footer" }}
+  {{ partial "footer" . }}
 {{ end }}

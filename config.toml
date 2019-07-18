@@ -1,7 +1,10 @@
-fbaseURL = "/"
+baseURL = "https://wileys.website/"
 title = "WILEY"
-theme = "robotico"
+theme = "hugo-theme-robotico"
 paginate = 3
+description = "Wiley McKay Conte's personal web space."
+
+
 
 [params]
 logofile = "img/Robobrand.png"
@@ -13,6 +16,7 @@ twitter = "wiley_baba"
 instagram = "wileybaba"
 fork = "https://github.com/wileybaba/hugo-theme-robotico"
 progressively = true
+highlightjs = true
 
 defaultContentLanguage = "en"
 
@@ -47,6 +51,7 @@ link = "/img/pots/cup_01.jpg"
 [languages]
   [languages.en]
   languageCode = "en-us"
+
     [[languages.en.menu.primary]]
     identifier = "code"
     name = "code"
@@ -60,23 +65,33 @@ link = "/img/pots/cup_01.jpg"
     weight = 20
 
     [[languages.en.menu.primary]]
-    identifier = ""
+    identifier = "shop"
+    name = "shop"
+    url = "https://wiley.bigcartel.com"
+    weight = 30
 
     [[languages.en.menu.primary]]
     identifier = "booklist"
     name = "booklist"
     url = "/booklist/"
-    weight = 30
+    weight = 40
+
+    # [[languages.en.menu.primary]]
+    # identifier = "blog"
+    # name = "blog"
+    # url = "/blog/"
+    # weight = 50
 
     # [[languages.en.menu.secondary]]
     # identifier = "patreon"
-    # name = "Learn More"
+    # name = "Listen to my Music"
+    # #spotify link!!!
     # url = "https://www.patreon.com/bePatron?u=10637849"
     # weight = 110
 
     [[languages.en.menu.secondary]]
     identifier = "bmc"
-    name = "Buy me a coffee"
+    name = "Buy me a pot of tea"
     url = "https://www.buymeacoffee.com/wiley"
     weight = 120
 
@@ -95,13 +110,16 @@ link = "/img/pots/cup_01.jpg"
     weight = 20
 
     [[languages.es.menu.primary]]
-    identifier = ""
+    identifier = "tienda"
+    name = "tienda"
+    url = "https://wiley.bigcartel.com/"
+    weight = 30
 
     [[languages.es.menu.primary]]
     identifier = "booklist"
     name = "libros"
     url = "/booklist/"
-    weight = 30
+    weight = 40
 
     # [[languages.es.menu.secondary]]
     # identifier = "patreon"

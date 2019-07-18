@@ -1,8 +1,8 @@
 +++
-title = "Wiley's Website"
+title = "Home"
 language = "en"
 +++
 
-**Welcome to my website.** I'm a self taught software engineer and organic farmer.  I'm interested in weather informatics, machine learning, and human-computer interaction.  I closely follow news and research on modern web development and am active in the open source community.  I also create ceramic artwork and play guitar when I'm not coding or working with plants.
+**Welcome to my website.** I'm a software engineer with a background in economics and ecological agriculture.  I am fascinated by human-computer interaction and I enjoy building things things that help people interface with the real world.  I also make pottery and compose music when I'm not writing code or enjoying the great outdoors.
 
-**Recently,** I'm spending most of my time building [Powder Intelligence](<https://powderintelligence.com>) but am open to working on other projects if they peak my interest.  I like writing code in `Javascript`, `Python`, and `GO`, but also have experience with `Ruby` and `PHP`. Please reach out to me on one of the channels below if you'd like to connect.
+**Lately,** I've been spending most of my time building out personal projects but am open to collaborating on other ventures if they pique my interest.  I enjoy writing code in <span class="js">`Javascript`</span> and  <span class="go">`Go`</span>, but also have experience with <span class="python">`Python`</span>, <span class="ruby">`Ruby`</span>, <span class="php">`PHP`</span>, and <span class="csharp">`C#`</span>. Please reach out to me on one of the channels below if you'd like to connect.
