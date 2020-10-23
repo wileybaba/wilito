@@ -45,9 +45,6 @@ link = "/img/pots/mug_01.jpg"
 
 link = "/img/pots/cup_01.jpg"
 
-
-
-
 [languages]
   [languages.en]
   languageCode = "en-us"
@@ -82,6 +79,19 @@ link = "/img/pots/cup_01.jpg"
     # url = "/blog/"
     # weight = 50
 
+    [[languages.en.menu.secondary]]
+    identifier = "bmc"
+    name = "Buy me a pot of tea"
+    url = "https://www.buymeacoffee.com/wiley"
+    weight = 110
+
+    [[languages.en.menu.secondary]]
+    identifier = "patreon"
+    name = "Blog"
+    #spotify link!!!
+    url = "/blog/"
+    weight = 120
+
     # [[languages.en.menu.secondary]]
     # identifier = "patreon"
     # name = "Listen to my Music"
@@ -89,11 +99,7 @@ link = "/img/pots/cup_01.jpg"
     # url = "https://www.patreon.com/bePatron?u=10637849"
     # weight = 110
 
-    [[languages.en.menu.secondary]]
-    identifier = "bmc"
-    name = "Buy me a pot of tea"
-    url = "https://www.buymeacoffee.com/wiley"
-    weight = 120
+
 
   [languages.es]
   languageCode = "es-us"
@@ -121,14 +127,20 @@ link = "/img/pots/cup_01.jpg"
     url = "/booklist/"
     weight = 40
 
-    # [[languages.es.menu.secondary]]
-    # identifier = "patreon"
-    # name = "Aprender mas"
-    # url = "https://www.patreon.com/bePatron?u=10637849"
-    # weight = 110
+    # [[languages.es.menu.primary]]
+    # identifier = "blog"
+    # name = "blog"
+    # url = "/blog/"
+    # weight = 50
 
     [[languages.es.menu.secondary]]
     identifier = "bmc"
     name = "Comprame Un Cafe"
     url = "https://www.buymeacoffee.com/wiley"
+    weight = 110
+
+    [[languages.es.menu.secondary]]
+    identifier = "patreon"
+    name = "Blog"
+    url = "/blog/"
     weight = 120
